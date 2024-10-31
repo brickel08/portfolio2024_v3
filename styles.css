@@ -9,7 +9,7 @@ html,body {
     background-color: black; */
     background-color: black;
     color: #d4d3d2;
-    background-image: url('imgs/blackbackground.jpg'); 
+    background-image: url('/imgs/blackbackground.jpg'); 
     background-repeat: repeat-x;
 }
 body, p, li, a {
@@ -21,9 +21,16 @@ body, p, li, a {
   line-height: 1.6;
   font-size: 1.2rem;
 }
+
 li {
-  text-decoration: none;
+  margin-bottom: 15px;
+  list-style: square;
 }
+
+li::marker {
+  color: #d4d3d2;
+}
+
 a {
   text-decoration: none;
   color: #d4d3d2;
@@ -114,22 +121,11 @@ h6 {
   }
 
   /* Skills */
-  .skills-list {
-    display: grid;
-    grid-template-rows: repeat(6, min-content);
-    grid-auto-flow: column;
-    color: white;
+  .table-row:hover {
+    background-color: #53d769;
   }
-  .technologies-list {
-    display: grid;
-    grid-template-rows: repeat(8, min-content);
-    grid-auto-flow: column;
-    color: white;
-  }
-  #small-list {
-    display: grid;
-    grid-template-rows: repeat(4, min-content);
-    grid-auto-flow: column;
+  .table-responsive {
+    filter: drop-shadow(0 0 5px #d4d3d2);
   }
   .skills-header {
     text-align: center;
@@ -138,25 +134,6 @@ h6 {
     text-align: center;
     font-size:  2rem;
   }
-  .skill-container {
-    background-color: #53d769;
-    color: white;
-    border-radius: 50px;
-    padding: 2em;
-  }
-  #coding-skills-container {
-    box-shadow: 0 0 5px 5px rgba(242, 242, 241, 0.2);
-  }
-  .skills-container {
-    background-color: #53d769;
-    border-radius: 50px;
-    color: #d4d3d2;
-  }
-.technologies-container {
-  background-color: #147efb;
-  border-radius: 50px;
-  color: #d4d3d2;
-}
 
   /* Accordion */
   .accordion-button {
@@ -180,6 +157,8 @@ h6 {
     background-color: #1a1a1a;
     color: #d4d3d2;
   }
+
+
 
   /* Education */
   .education-image {
