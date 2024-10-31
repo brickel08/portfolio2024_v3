@@ -12,7 +12,7 @@ html,body {
     background-image: url('/imgs/blackbackground.jpg'); 
     background-repeat: repeat-x;
 }
-body, p, li, a {
+body, p, li {
   /* font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.6;  */
@@ -34,6 +34,7 @@ li::marker {
 a {
   text-decoration: none;
   color: #d4d3d2;
+  font-family: 'Roboto', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -137,22 +138,23 @@ h6 {
 
   /* Accordion */
   .accordion-button {
-    background-color: #147efb;
+    background-color: #d4d3d2;
     border-bottom: 2px solid black;
-    color: #d4d3d2;
+    color: #1a1a1a;
     font-size: 1.5rem;
   }
-  .accordion-button.active {
-    background-color: #53d769;
-  }
+  .accordion-button:focus {
+    box-shadow: none;
+    border-color: black;
+}
+  .accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #147efb;
+}
   .accordion-button:hover {
     color: white;
     background-color: #53d769;
-  }
-  .accordion-flush {
-    background-color: rgba(242, 242, 241, 0.2);
-    background-color: #53d769;
-  }
+  } 
   .accordion-body {
     background-color: #1a1a1a;
     color: #d4d3d2;

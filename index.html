@@ -20,28 +20,51 @@
       <!-- Vertical Navbar -->
       <!-- Sidebar for large screens -->
       <nav class="col-md-3 col-lg-2 d-none d-md-block bg-dark sidebar">
-        <div class="position-sticky pt-3">
-            <ul class="nav flex-column nav-pills text-white" id="tabMenu" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="home-tab" data-bs-toggle="pill" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-home"></i> Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="skills-tab" data-bs-toggle="pill" href="#skills" role="tab" aria-controls="skills" aria-selected="false"><i class="fas fa-code"></i> Skills & Technologies</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="projects-tab" data-bs-toggle="pill" href="#projects" role="tab" aria-controls="projects" aria-selected="false"><i class="fas fa-folder-open"></i> Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="education-tab" data-bs-toggle="pill" href="#education" role="tab" aria-controls="education" aria-selected="false"><i class="fas fa-graduation-cap"></i> Education & Certifications</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="experience-tab" data-bs-toggle="pill" href="#experience" role="tab" aria-controls="experience" aria-selected="false"><i class="fas fa-history"></i> Experience</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" data-bs-toggle="pill" href="/imgs/Ben Rickel Resume 2024 v6.pdf" download="Ben Rickel Resume 2024" role="tab" aria-controls="resume" aria-selected="false"><i class="fa-solid fa-cloud-arrow-down"></i> Resume</a>
-                </li>
-            </ul>
-            <!-- <img src="imgs/The Rope - Ben Portrait 2 BW 72.jpg" class="img-fluid" alt=""> -->
+        <div class="position-sticky d-flex flex-column mb-3" style="height: 100vh;">
+          <ul class="nav flex-column nav-pills text-white" id="tabMenu" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-bs-toggle="pill" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="skills-tab" data-bs-toggle="pill" href="#skills" role="tab" aria-controls="skills" aria-selected="false"><i class="fas fa-code"></i> Skills & Technologies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="projects-tab" data-bs-toggle="pill" href="#projects" role="tab" aria-controls="projects" aria-selected="false"><i class="fas fa-folder-open"></i> Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="education-tab" data-bs-toggle="pill" href="#education" role="tab" aria-controls="education" aria-selected="false"><i class="fas fa-graduation-cap"></i> Education & Certifications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="experience-tab" data-bs-toggle="pill" href="#experience" role="tab" aria-controls="experience" aria-selected="false"><i class="fas fa-history"></i> Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="imgs/Ben Rickel Resume 2024 v6.pdf" download="Ben Rickel Resume 2024"><i class="fa-solid fa-cloud-arrow-down"></i> Resume</a>
+            </li>
+          </ul>
+          <div class="mt-auto pb-5 mx-2">
+            <div>
+              <span class="display-5">Contact</span>
+              <hr>
+            </div>
+            <div class="contact-info text-white">
+              <a href="mailto:benjamin.rickel.jobs@gmail.com?subject=Inquiry From Portfolio&body=I am interested in connecting!" class="contact-link">
+                <span><i class="fas fa-envelope contact-icon"></i> Professional Email</span></a>
+            </div>
+            <div class="contact-info">
+              <i class="fas fa-phone contact-icon"></i>
+              <span>612-239-9874</span>
+            </div>
+            <div class="contact-info">
+              <i class="fas fa-map-marker-alt contact-icon"></i>
+              <span>Twin Cities, MN</span>
+            </div>
+            <div class="contact-info">
+              <span><a href="linkedin.com/in/benjamin-rickel" class="contact-link"><i class="fab fa-linkedin contact-icon"></i> LinkedIn</a></span>
+            </div>
+            <div class="contact-info">
+              <span><a href="https://github.com/brickel08" class="contact-link"><i class="fab fa-github contact-icon"></i> GitHub</a></span>
+            </div>
+          </div>
         </div>
       </nav>
 
@@ -55,19 +78,19 @@
             <div class="collapse navbar-collapse" id="mobileNavbar">
                 <ul class="navbar-nav flex-column nav-pills text-white">
                     <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-bs-toggle="pill" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-home"></i> Home</a>
+                        <a class="nav-link active px-2" id="home-tab" data-bs-toggle="pill" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-home"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="skills-tab" data-bs-toggle="pill" href="#skills" role="tab" aria-controls="skills" aria-selected="false"><i class="fas fa-code"></i> Skills & Technologies</a>
+                        <a class="nav-link px-2" id="skills-tab" data-bs-toggle="pill" href="#skills" role="tab" aria-controls="skills" aria-selected="false"><i class="fas fa-code"></i> Skills & Technologies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="projects-tab" data-bs-toggle="pill" href="#projects" role="tab" aria-controls="projects" aria-selected="false"><i class="fas fa-folder-open"></i> Projects</a>
+                        <a class="nav-link px-2" id="projects-tab" data-bs-toggle="pill" href="#projects" role="tab" aria-controls="projects" aria-selected="false"><i class="fas fa-folder-open"></i> Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="education-tab" data-bs-toggle="pill" href="#education" role="tab" aria-controls="education" aria-selected="false"><i class="fas fa-graduation-cap"></i> Education & Certifications</a>
+                        <a class="nav-link px-2" id="education-tab" data-bs-toggle="pill" href="#education" role="tab" aria-controls="education" aria-selected="false"><i class="fas fa-graduation-cap"></i> Education & Certifications</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="about-tab" data-bs-toggle="pill" href="#experience" role="tab" aria-controls="experience" aria-selected="false"><i class="fas fa-user"></i> Experience</a>
+                      <a class="nav-link px-2" id="about-tab" data-bs-toggle="pill" href="#experience" role="tab" aria-controls="experience" aria-selected="false"><i class="fas fa-user"></i> Experience</a>
                   </li>
                 </ul>
             </div>
@@ -108,7 +131,7 @@
                   </p>
                 </div>
               </div>
-              <div class="row justify-content-center">
+              <!-- <div class="row justify-content-center">
                 <div class="col-md-6 p-5" id="contact-bubble">
                   <h2 class="display-3">Contact</h2>
                   <hr>
@@ -134,7 +157,7 @@
                     <span><a href="https://github.com/brickel08" class="contact-link">GitHub</a></span>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
            </div>
 
@@ -609,5 +632,6 @@
     </div>
   </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
