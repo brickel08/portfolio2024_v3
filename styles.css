@@ -102,6 +102,10 @@ h6 {
   .nav-pills .nav-link i {
     margin-right: 8px;
   }
+
+  .nav-item {
+    list-style: none;
+  }
   
   .main-content {
     margin-left: 250px;
